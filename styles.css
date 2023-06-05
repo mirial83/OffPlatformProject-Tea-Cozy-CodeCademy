@@ -1,0 +1,117 @@
+
+  html {
+      font-family: Helvetica;
+      font-size: 22px;
+      color: seashell;
+      background-color: black;
+      opacity: 0.9;
+      text-align: center;
+      width: 1280px;
+  }
+  .main-container {
+    padding: 20px;
+    margin: 70px 20px 20px 20px;
+  }
+  .topnav {
+      max-height: 69px;
+      border-bottom: 1px solid seashell;
+      position: fixed;
+      width: 1280px;
+      background-color: black;
+      top: 0;
+      overflow: hidden;
+      z-index: 3;
+  }
+  .topnav img {
+      max-height: 50px;
+      display: flex;
+      align-items: center;
+      margin: 10px;
+      float: left;
+  }
+  .topnav a {
+      text-decoration: underline;
+      color: seashell;
+      display: inline-flex;
+      margin: 10px;
+      padding: 10px;
+  }
+  .topnav a:hover {
+      color: seashell;
+  }
+  .topnav a.active {
+      color: seashell;
+  }
+  .topnav-right {
+      float: right;
+  }
+  .mission {
+    background-image: url('/img-mission-background.jpg');
+    height: 700px;
+    width: 1200px;
+  }
+  .mission-text {
+    background-color: black;
+    width: 1200px;
+    position: absolute;
+    top: 350px;
+  }
+  .featured-tea {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 60px;
+  }
+  .tea-type {
+    margin: 10px;
+  }
+  .teas1 figure {
+    display: inline-block;
+  }
+  .teas2 figure {
+    display: inline-block;
+  }
+  figcaption {
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 0;
+  }
+  figure img {
+    height: 200px;
+    width: 300px;
+  }
+  .locations {
+    background-image: url('/img-locations-background.jpg');
+    background-position: center;
+    background-repeat: norepeat;
+    height: 600px;
+    width: 1200px;
+    position: relative;
+  }
+  .locations h2 {
+    margin-top: 90px;
+  }
+  .loc {
+    opacity: 1;
+    width: 300px;
+    margin: 0 40px;
+    background-color: black;
+    height: auto;
+    display: inline-block;
+  }
+  .contact-info {
+    height: 200px;
+    margin: 0;
+  }
+  .email a {
+    color: seashell;
+    text-decoration: none;
+  }
+  .copyright {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    top: 0;
+  }
+  footer {
+    padding: 0;
+  }
