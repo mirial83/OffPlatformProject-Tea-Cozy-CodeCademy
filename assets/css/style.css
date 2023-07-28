@@ -46,7 +46,7 @@
       float: right;
   }
   .mission {
-    background-image: url('assets/img-mission-background.jpg');
+    background-image: url('../img-mission-background.jpg');
     height: 700px;
     width: 1200px;
   }
@@ -80,7 +80,7 @@
     width: 300px;
   }
   .locations {
-    background-image: url('assets/img-locations-background.jpg');
+    background-image: url('../img-locations-background.jpg');
     background-position: center;
     background-repeat: norepeat;
     height: 600px;
