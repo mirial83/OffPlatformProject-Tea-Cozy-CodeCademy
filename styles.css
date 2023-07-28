@@ -46,7 +46,7 @@
       float: right;
   }
   .mission {
-    background-image: url('/img-mission-background.jpg');
+    background-image: url('./img-mission-background.jpg');
     height: 700px;
     width: 1200px;
   }
